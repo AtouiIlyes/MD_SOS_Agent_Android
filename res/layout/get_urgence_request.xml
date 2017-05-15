@@ -1,0 +1,102 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+ 
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+   
+     
+     <LinearLayout 
+	android:id="@+id/linearLayout2" 
+	android:layout_width="fill_parent"
+	android:layout_height="38dp" 
+	android:layout_marginTop="10dp"
+	 >
+
+     <TextView
+         android:id="@+id/textView1"
+         style="@style/AudioFileInfoOverlayText"
+         android:layout_width="176dp"
+         android:layout_height="wrap_content"
+         android:text="Email"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+     <TextView
+		android:id="@+id/ColName" 
+		android:layout_width="230dp"
+		android:layout_height="wrap_content" 
+		android:textSize="20sp"
+        android:text="Nom"
+        android:textStyle="bold" 
+        style="@style/AudioFileInfoOverlayText"/>
+
+     <TextView
+         android:id="@+id/ColTel"
+         style="@style/AudioFileInfoOverlayText"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:text="donneur d&apos;organne"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+	</LinearLayout>
+  	        
+ 	</TableRow>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+     <ListView
+         android:id="@+id/listView1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:choiceMode="singleChoice"
+         android:divider="@layout/divider"
+         android:dividerHeight="2dp"        
+         android:listSelector="@drawable/list_selector"
+         android:background="@color/list_background">
+     </ListView>
+  	        
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+   		  
+   	<LinearLayout
+      android:id="@+id/LinearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="5dip" >
+
+   		<TextView
+   		    android:id="@+id/textView2"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:text="© MD-sos"
+   		    android:textSize="30dp" 
+   		    android:textColor="#fff"/>
+
+   		<Button
+   		    android:id="@+id/btn1"
+   		    android:layout_width="60dp"
+   		    android:layout_height="60dp"
+   		    android:layout_marginLeft="400dp"
+   		    android:layout_marginTop="5dp"
+   		    android:background="@drawable/refresh" />
+
+	</LinearLayout>
+	
+</TableLayout>

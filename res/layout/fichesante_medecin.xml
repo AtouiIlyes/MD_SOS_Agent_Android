@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/info.androidhive.slidingmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.15"
+                android:background="#fff"
+                android:orientation="vertical" >
+
+                
+              <RelativeLayout
+                        android:layout_width="400dp"
+                    android:layout_height="100dp" 
+                    android:layout_marginLeft="180dp"
+       				 android:layout_marginTop="5dp" >
+       				 
+ 		
+                  <TextView
+                      android:id="@+id/textView1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Atoui Ilyes"
+                      android:textColor="#000"
+                      android:textColorHighlight="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal"
+                      style="@style/AudioFileInfoOverlayText" 
+                      />
+                  
+	
+                  <TextView
+                      android:id="@+id/textView2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_below="@+id/textView1"
+                      android:text="17/03/1993"
+                      android:textColor="#000"
+                      android:textColorHighlight="#fff"
+                      android:textSize="18sp"
+                      android:textStyle="normal" />
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_below="@+id/textView2"
+                      android:text="09488733"
+                      android:textColor="#000"
+                      android:textColorHighlight="#fff"
+                      android:textSize="17sp"
+                      android:textStyle="normal" />
+                  
+                    <ImageButton
+                        android:id="@+id/edit"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edit" />
+
+				<ImageButton
+                    android:id="@+id/btn1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ret" 
+                    android:layout_marginLeft="260dp"
+                    
+                    />
+                    </RelativeLayout>
+                        
+            
+              
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/background" 
+                android:orientation="vertical" >
+              
+               <RelativeLayout
+                        android:layout_width="500dp"
+                    android:layout_height="700dp" 
+                    android:layout_marginLeft="0dp"
+       				 android:layout_marginTop="0dp"
+       				 android:background="@drawable/trans" >
+	<RelativeLayout
+ 		    android:id="@+id/ln1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="10dp"
+            
+            >
+                  <TextView
+                      android:id="@+id/textView4"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Groupe sanguin"
+                      android:textColor="#fff"
+                      android:textColorHighlight="#000"
+                      android:textSize="25sp"
+                      android:textStyle="bold" 
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView4"
+                      android:text="Blood Type"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:layout_marginTop="-1dp"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText"
+                      
+                      />
+                  <TextView
+                      android:id="@+id/textView7"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="O+"
+                      android:textColor="#F50F0F"
+                      android:textSize="18sp"
+                      android:textStyle="bold" 
+                      android:background="@drawable/blood"
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                  
+	</RelativeLayout>
+	
+	<RelativeLayout
+ 		    android:id="@+id/ln2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln1"
+            android:layout_alignParentLeft="true" 
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Donneur d'organes"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView9"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView5"
+                      android:text="Organ Donor"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  
+                   <TextView
+                      android:id="@+id/textView10"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Oui"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView11"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView10"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Yes"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+             </RelativeLayout>
+             
+	<RelativeLayout
+ 		    android:id="@+id/ln3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Assurance maladie"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView9"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView6"
+                      android:text="Insurance disease"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView12"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="CNAM"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView13"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView12"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="CNAM"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+	</RelativeLayout>
+	
+	<RelativeLayout
+ 		    android:id="@+id/ln4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView14"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Pathologies"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView15"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView14"
+                      android:text="Pathologies"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView16"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="diabète"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView17"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView16"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Diabetes"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+	</RelativeLayout>
+	
+	<RelativeLayout
+ 		    android:id="@+id/ln5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln4"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView18"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Allergies"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView19"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView18"
+                      android:text="Allergies"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView20"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="abeille"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView21"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView20"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Bee"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+	</RelativeLayout>
+	
+	<RelativeLayout
+ 		    android:id="@+id/ln6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln5"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView22"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Traitements en cours"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView23"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView22"
+                      android:text="Treatments in progress"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView24"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="fervex"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView25"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView24"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="fervex"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+	</RelativeLayout>
+	
+	<RelativeLayout
+ 		    android:id="@+id/ln7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ln6"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+                  <TextView
+                      android:id="@+id/textView26"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Antécédents familiaux"
+                      android:textColor="#fff"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView27"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView26"
+                      android:text="family history"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView28"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Aucun"
+                      android:textColor="#fff"
+                      android:textSize="22sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                    <TextView
+                      android:id="@+id/textView29"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView28"
+                      android:layout_marginLeft="380dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="None"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="22sp"
+                      android:textStyle="italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+	</RelativeLayout>
+                    </RelativeLayout>
+
+               
+
+	 </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.15"
+                android:background="#fff"
+                android:orientation="vertical" >
+               <RelativeLayout
+ 		    android:id="@+id/ln8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+	<ImageView 
+	    			android:id="@+id/imageView2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/doctor"
+	    />
+                  <TextView
+                      android:id="@+id/textView30"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="75dp"
+                      android:layout_marginTop="15dp"
+                      android:text="Médecin de famille"
+                      android:textColor="#000"
+                      android:textSize="20sp"
+                      android:textStyle="normal"
+                      style="@style/AudioFileInfoOverlayText"  />
+                  <TextView
+                      android:id="@+id/textView27"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/textView30"
+                      android:layout_marginLeft="75dp"
+                      android:text="Family doctor"
+                      android:textColor="#1D9CA8"
+                      android:textColorHighlight="#000"
+                      android:textSize="15sp"
+                      android:textStyle="bold|italic" 
+                      style="@style/AudioFileInfoOverlayText" />
+                  <TextView
+                      android:id="@+id/textView31"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginLeft="340dp"
+                      android:layout_alignParentLeft="true"
+                      android:text="Dr. Ben Mlouka"
+                      android:textColor="#1D9CA8"
+                      android:textSize="16sp"
+                      android:textStyle="normal" 
+                      android:gravity="center"
+                      style="@style/AudioFileInfoOverlayText"
+                      />
+                  
+                    
+	</RelativeLayout>
+		
+                
+                 
+              
+            </RelativeLayout>
+        </LinearLayout>
+	<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/profil" 
+        android:background="@drawable/bg_imageview"
+        />
+        
+        
+    </FrameLayout>
+    </LinearLayout>
+    

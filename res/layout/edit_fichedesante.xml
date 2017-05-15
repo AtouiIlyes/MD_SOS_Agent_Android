@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="#EFF7F8">
+
+<RelativeLayout
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/profil" 
+        android:background="@drawable/bg_imageview"
+        />
+
+  	<RelativeLayout
+  	    android:id="@+id/rl2"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="150dp"
+  	    android:layout_marginLeft="125dp"
+  	    android:layout_marginTop="15dp"
+  	    android:background="@drawable/bg_relativelayout" >
+    	
+  	    <EditText 
+  	        android:id="@+id/et1"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Votre Nom ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	   
+  	  <EditText 
+  	        android:id="@+id/spinner"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_below="@+id/et1"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="N°= d'assurence"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:paddingLeft="25dp"
+            android:textStyle="normal"
+            
+    		/>
+  	    
+  	    <EditText 
+  	        android:id="@+id/et3"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_below="@+id/spinner"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="groupe sanguin"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:paddingLeft="25dp"
+            android:textStyle="normal"
+            
+    		/>
+  	</RelativeLayout>
+  	
+  	<RelativeLayout
+  	        android:id="@+id/rl3"
+  	        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_below="@+id/rl2"
+    		android:layout_marginTop="18dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_donneur" >
+  	    
+  	     <TextView
+  	        android:id="@+id/tv3"
+  	        android:layout_width="300dp"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="15dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:gravity="center_vertical"
+    		android:text="Donneur D'organes"
+    		android:textColor="#000"
+    		android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="normal" />
+  	     <ToggleButton 
+  	         android:id="@+id/tb1"
+  	        android:layout_width="150dp"
+    		android:layout_height="54dp"
+    		android:layout_marginTop="7dp"
+    		android:background="@drawable/toggle_switch"
+    		android:layout_marginLeft="420dp"
+    		android:gravity="center_vertical"
+    		android:textOff=""
+    		android:textOn=""
+  	         />
+  	</RelativeLayout>
+<TextView
+  	        android:id="@+id/tv4"
+  	        android:layout_width="300dp"
+    		android:layout_height="30dp"
+    		android:layout_below="@+id/rl3"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Assurence maladie"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />
+  	
+<RelativeLayout
+  	        android:id="@+id/rl4"
+  	        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_below="@+id/tv4"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     
+    <EditText
+  	        android:id="@+id/tv5"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="15dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:gravity="center_vertical"
+    		android:hint="type assurence maladique"
+    		android:background="@drawable/bg_edittext"
+    		android:textColor="#000"
+    		android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="normal"
+            />
+  	     </RelativeLayout>
+  <TextView
+  	        android:id="@+id/tv6"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl4"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Pathologies"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />	     
+
+  <RelativeLayout
+  	        android:id="@+id/rl5"
+  	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tv6"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     <EditText 
+  	        android:id="@+id/et4"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     <EditText 
+  	        android:id="@+id/et8"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:layout_below="@+id/et4"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     
+  	     
+  	     
+   
+  	     </RelativeLayout>
+  
+  <TextView
+  	        android:id="@+id/tv8"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl5"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Allergies"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />	     
+
+  <RelativeLayout
+  	        android:id="@+id/rl6"
+  	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tv8"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     <EditText 
+  	        android:id="@+id/et5"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     
+  	     
+  	     
+   
+  	     </RelativeLayout>
+  
+  
+  
+  <TextView
+  	        android:id="@+id/tv10"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl5"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Allergies"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />	     
+
+  <RelativeLayout
+  	        android:id="@+id/rl6"
+  	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tv10"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     <EditText 
+  	        android:id="@+id/et10"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     <EditText 
+  	        android:id="@+id/et11"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:layout_below="@+id/et10"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     
+  	     
+   
+  	     </RelativeLayout>
+  
+  
+  <TextView
+  	        android:id="@+id/tv12"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl6"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Traitements"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />	     
+
+  <RelativeLayout
+  	        android:id="@+id/rl7"
+  	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tv12"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     
+  	    
+  	     <EditText 
+  	        android:id="@+id/et7"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	   
+  	     </RelativeLayout>
+  	     <TextView
+  	        android:id="@+id/tv13"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl7"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Antécédents familiaux"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />
+  	     <RelativeLayout
+  	        android:id="@+id/rl8"
+  	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tv13"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_relativelayout" >
+  	     <EditText 
+  	        android:id="@+id/et14"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     <EditText 
+  	        android:id="@+id/et12"
+  	        android:layout_width="match_parent"
+    		android:layout_height="30dp"
+    		android:layout_marginTop="8dp"
+    		android:layout_marginLeft="2dp"
+    		android:layout_marginRight="2dp"
+    		android:layout_below="@+id/et14"
+    		android:background="@drawable/bg_edittext"
+    		android:hint="Ecrire ici"
+    		android:textColor="#000"
+    		android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+    		/>
+  	     </RelativeLayout>
+  	     
+  	     	     <TextView
+  	        android:id="@+id/tv14"
+  	        android:layout_width="300dp"
+    		android:layout_height="35dp"
+    		android:layout_below="@+id/rl8"
+    		android:layout_marginTop="25dp"
+    		android:layout_marginLeft="5dp"
+    		android:gravity="center_vertical"
+    		android:text="Médecin de famille"
+    		android:textColor="#000"
+    		android:textSize="25sp"
+            android:paddingLeft="25dp"
+            android:textStyle="bold" />
+  	     	     
+  	     	     <RelativeLayout
+  	        android:id="@+id/rl9"
+  	        android:layout_width="match_parent"
+    		android:layout_height="60dp"
+    		android:layout_below="@+id/rl8"
+    		android:layout_marginTop="18dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:background="@drawable/bg_donneur" >
+  	    
+  	     <TextView
+  	         android:id="@+id/tv3"
+  	         android:layout_width="300dp"
+  	         android:layout_height="40dp"
+  	         android:layout_marginLeft="2dp"
+  	         android:layout_marginRight="2dp"
+  	         android:layout_marginTop="10dp"
+  	         android:gravity="center_vertical"
+  	         android:paddingLeft="25dp"
+  	         android:text="Certification"
+  	         android:textColor="#000"
+  	         android:textSize="30sp"
+  	         android:textStyle="bold" />
+
+  	     <ToggleButton 
+  	         android:id="@+id/tb2"
+  	        android:layout_width="150dp"
+    		android:layout_height="54dp"
+    		android:layout_marginTop="7dp"
+    		android:background="@drawable/toggle_switch"
+    		android:layout_marginLeft="420dp"
+    		android:gravity="center_vertical"
+    		android:textOff=""
+    		android:textOn=""
+  	         />
+  	</RelativeLayout>
+  	     
+  	     <Button 
+  	        android:id="@+id/b1"
+  	        android:layout_width="230dp"
+  	        android:layout_height="50dp"
+    		android:layout_below="@+id/rl9"
+    		android:layout_marginTop="28dp"
+    		android:textSize="30dp"
+    		style="@style/AudioFileInfoOverlayText"
+    		android:gravity="center"
+    		android:background="@drawable/creation"
+        	android:text="Certifier" 
+    		android:layout_marginLeft="200dp"/>
+  	     <View
+        android:layout_height="40px"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/b1"
+        android:background="#EFF7F8" />
+</RelativeLayout>
+  
+ 
+
+
+
+</ScrollView>

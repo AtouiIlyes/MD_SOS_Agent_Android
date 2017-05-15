@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    
+    >
+<ImageView
+    android:id="@+id/img1"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:src="@drawable/background"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginRight="150dp"
+    android:background="@drawable/bg_imageview"
+    />
+ <TextView
+        android:id="@+id/tv"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/img1"
+        android:textColor="#fff"
+        android:textColorHighlight="#000"
+        android:textSize="35sp"
+        android:textStyle="bold" 
+        android:gravity="center"
+        style="@style/AudioFileInfoOverlayText"
+                      />
+
+   <TextView
+        android:id="@+id/tv1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Atoui Ilyes"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/tv"
+        android:textColor="#fff"
+        android:textColorHighlight="#000"
+        android:textSize="35sp"
+        android:textStyle="bold" 
+        android:gravity="center"
+        style="@style/AudioFileInfoOverlayText"
+                      />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="400dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/tv1"
+        android:text="Gérer" 
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/creation"
+        />
+    
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/btn1"
+        android:text="déconnection" 
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/blanc"
+        />
+
+</RelativeLayout>
